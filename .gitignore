@@ -1,4 +1,3 @@
-.env
 node_modules/
 dist/
 browse/dist/
@@ -24,11 +23,9 @@ extension/.auth.json
 /tmp/
 *.log
 *.bun-build
-.env
-.env.local
-.env.*
 !.env.example
 supabase/.temp/
 
 # Throughput analysis — local-only, regenerate via scripts/garry-output-comparison.ts
 docs/throughput-*.json
+config.bat
